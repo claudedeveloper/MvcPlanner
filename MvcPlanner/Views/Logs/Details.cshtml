@@ -1,0 +1,114 @@
+﻿@model MvcPlanner.Models.Log
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Log</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Subject)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Subject)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Remark)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Remark)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Day)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Day)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Assignment)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Assignment)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Time)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Time)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Recitation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Recitation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Comment)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Comment)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Quiz)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Quiz)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Seatwork)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Seatwork)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Midterm)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Midterm)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Final)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Final)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
